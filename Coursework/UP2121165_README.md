@@ -71,8 +71,12 @@ The notebook includes:
 - No major bugs encountered.
 
 ## Acknowledgements and References
-- ChatGPT was used to scaffold code and organize the notebook layout.
-- Model structure adapted from TensorFlow documentation: https://www.tensorflow.org/tutorials/images/cnn
+- Official TensorFlow/Keras tutorials and API documentation:
+  - https://www.tensorflow.org/tutorials/images/cnn
+  - https://www.tensorflow.org/api_docs/python/tf/keras
+- Manual design and adaptation by the author based on typical CNN best practices
+- ChatGPT was used to assist in structuring the notebook
+All model, training loops, and evaluations were implemented and tested manually.
 
 ## Conclusions
 CNNs are effective for image classification tasks. By iteratively improving model architecture, validation accuracy was increased. Model 2 achieved the best performance and generalization.
